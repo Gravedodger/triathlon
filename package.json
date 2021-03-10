@@ -5,6 +5,8 @@
   "author": {
     "name": "Sviatoslav Malyshevskyi"
   },
+  "cleanUrls": true,
+  "trailingSlash": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
