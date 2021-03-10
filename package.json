@@ -7,6 +7,7 @@
   },
   "cleanUrls": true,
   "trailingSlash": false,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
