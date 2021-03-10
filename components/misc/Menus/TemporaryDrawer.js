@@ -9,7 +9,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import MenuSharpIcon from '@material-ui/icons/MenuSharp';
 import styles from '../../../styles/Modules/TemporaryDrawer.module.css';
 import ChevronRightSharpIcon from '@material-ui/icons/ChevronRightSharp'
-import Link from 'next/Link'
+import Link from 'next'
 
 const useStyles = makeStyles({
   list: {
