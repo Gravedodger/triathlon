@@ -1,7 +1,10 @@
 {
   "name": "utl-next",
   "version": "0.1.0",
-  "private": true,
+  "public": true,
+  "author": {
+    "name": "Sviatoslav Malyshevskyi"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
