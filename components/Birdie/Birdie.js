@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSpring, animated } from 'react-spring';
+import {useSpring, animated} from 'react-spring';
 
 const calc = (x, y) => [x - window.innerWidth / 3, y - window.innerHeight / 3]
 const trans1 = (x, y) => `translate3d(${x / 10}px,${y / 10}px,0)`
@@ -15,13 +15,13 @@ export function Birdie() {
   return (
     <div className="container"
          onMouseMove={({clientX: x, clientY: y}) => set({xy: calc(x, y)})}>
-      <animated.div class="card1"
+      <animated.div className="card1"
                     style={{transform: props.xy.interpolate(trans1)}}/>
-      <animated.div class="card2"
+      <animated.div className="card2"
                     style={{transform: props.xy.interpolate(trans2)}}/>
-      <animated.div class="card3"
+      <animated.div className="card3"
                     style={{transform: props.xy.interpolate(trans3)}}/>
-      <animated.div class="card4"
+      <animated.div className="card4"
                     style={{transform: props.xy.interpolate(trans4)}}/>
     </div>
   )

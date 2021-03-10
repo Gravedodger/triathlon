@@ -15,69 +15,69 @@ const Footer = () => {
         <div className={styles.menuContainer}>
           <ul className={styles.menuBox}>
 
-            <Link href='/'><a>
+            <Link href="/"><a>
               <li>Головна</li>
             </a></Link>
 
-            <Link href={'/About'}><a>
+            <Link href="/About"><a>
               <li>Про нас</li>
             </a></Link>
 
-            <Link href={'/News'}><a>
+            <Link href="/News"><a>
               <li>Новини</li>
             </a></Link>
 
-            <Link href={'/Services'}><a>
+            <Link href="/Services"><a>
               <li>Послуги Атлетам</li>
             </a></Link>
 
-            <Link href={'/Contacts'}><a>
+            <Link href="/Contacts"><a>
               <li>Контакти</li>
             </a></Link>
 
           </ul>
           <ul className={styles.menuBox}>
 
-            <Link href={'/SportsAndRules'}><a>
+            <Link href="/SportsAndRules"><a>
               <li>Види спорту та правила</li>
             </a></Link>
 
-            <Link href={'/Athletes'}><a>
+            <Link href="/Athletes"><a>
               <li>Атлети</li>
             </a></Link>
 
-            <Link href={'/Health'}><a>
+            <Link href="/Health"><a>
               <li>Здоров'я атлетів</li>
             </a></Link>
 
-            <Link href={'/Donate'}><a>
+            <Link href="/Donate"><a>
               <li>Зробити пожертву</li>
             </a></Link>
 
-            <Link href={'/Safety'}><a>
+            <Link href="/Safety"><a>
               <li>Безпека атлетів</li>
             </a></Link>
 
           </ul>
           <ul className={styles.menuBox}>
 
-            <Link href={'/Sponsors'}><a>
+            <Link href="/Sponsors"><a>
               <li>Спонсори</li>
             </a></Link>
 
-            <Link href={'/Partners'}><a>
+            <Link href="/Partners"><a>
               <li>Партнери</li>
             </a></Link>
 
-            <Link href={'/TrainingCenters'}><a>
+            <Link href="/TrainingCenters"><a>
               <li>Тренувальні центри</li>
             </a></Link>
 
-            <Link href={'/PressInfo'}><a>
+            <Link href="/PressInfo"><a>
               <li>Для преси</li>
             </a></Link>
 
-            <Link href={'/AccidentReporting'}><a>
+            <Link href="/AccidentReporting"><a>
               <li>Заявити подію</li>
             </a></Link>
 

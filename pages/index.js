@@ -2,7 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import Birdie from '../components/Birdie';
 import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
 
 const Home = () => {
   return (
