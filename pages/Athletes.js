@@ -1,28 +1,28 @@
 import React from 'react';
 import Head from 'next/head';
-import Birdie from '../components/Birdie';
 import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
+import Birdie from '../components/Birdie/Birdie';
 
-const Home = () => {
+const Athletes = () => {
   return (
     <>
       <Head>
-        <title>УЛТ | Головна</title>
-        <meta name="keywords" content="тріатлон Україна" />
+        <title>УЛТ | Атлети</title>
+        <meta name="keywords" content="" />
       </Head>
 
       <section>
-        <h1 className='tempPageTitle'>Головна сторінка</h1>
+        <div>
+          <h1 className='tempPageTitle'>СТОРІНКА "АТЛЕТИ"</h1>
+        </div>
       </section>
       <Container maxWidth={'sm'} className='birdie'/>
       <Container className='birdie' />
       <Container className='birdie'><Birdie/></Container>
       <Container className='birdie' />
       <Container className='birdie' />
-
     </>
   );
 };
 
-export default Home;
+export default Athletes;

@@ -1,0 +1,261 @@
+.header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.row {
+    display: flex;
+    height: 110px;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+    background-color: #002464;
+}
+
+.logoContainer {
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.titleContainer {
+    margin-bottom: 11px;
+    font: bold 40px Montserrat, Lato, sans-serif;
+}
+
+.icnWhite {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.icnBlue {
+    font-size: 4.5rem;
+    color: #002464;
+    cursor: pointer;
+}
+
+.titleContainer h1 {
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.75);
+    user-select: none;
+}
+
+.iconsContainer {
+    display: flex;
+    width: 14%;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+.bottomSection {
+    display: flex;
+    margin: 0 11% 0 12%;
+    justify-content: flex-end;
+    height: 70px;
+    color: #002464;
+    background-color: #ffffff;
+}
+
+.bottomIcons {
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////*/
+                                /*MEDIA QUERIES*/
+/*///////////////////////////////////////////////////////////////////////////////*/
+
+@media screen and (min-width: 791px) and (max-width: 890px) {
+    .logoContainer {
+        margin-left: 2%;
+    }
+
+    .titleContainer {
+        font-size: 25px;
+    }
+
+    .icnWhite {
+        margin: 0;
+    }
+
+    .icnBlue {
+        margin: 0;
+    }
+
+    .iconsContainer {
+        margin: 0 2% 0 2%;
+    }
+
+    .bottomSection {
+        margin: 0 4% 0 4%;
+    }
+
+    .bottomIcons {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 891px) and (max-width: 990px) {
+    .logoContainer {
+        margin-left: 2%;
+    }
+
+    .titleContainer {
+        font-size: 30px;
+    }
+
+    .icnWhite {
+        margin: 0 6% 0 12%;
+    }
+
+    .icnBlue {
+        margin-right: 0;
+    }
+
+    .iconsContainer {
+        margin: 0 2% 0 2%;
+    }
+
+    .bottomSection {
+        margin: 0 4% 0 4%;
+    }
+
+    .bottomIcons {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1100px) {
+    .logoContainer {
+        margin-left: 2%;
+    }
+
+    .titleContainer {
+        font-size: 30px;
+    }
+
+    .icnWhite {
+        margin: 0 6% 0 12%;
+    }
+
+    .icnBlue {
+        margin-right: 0;
+    }
+
+    .iconsContainer {
+        margin: 0 2% 0 2%;
+    }
+
+    .bottomSection {
+        margin: 0 4% 0 4%;
+    }
+
+    .bottomIcons {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1100px) {
+    .logoContainer {
+        margin-left: 2%;
+    }
+
+    .titleContainer {
+        font-size: 30px;
+    }
+
+    .icnWhite {
+        margin: 0 6% 0 12%;
+    }
+
+    .icnBlue {
+        margin-right: 0;
+    }
+
+    .iconsContainer {
+        margin: 0 2% 0 2%;
+    }
+
+    .bottomSection {
+        margin: 0 4% 0 4%;
+    }
+
+    .bottomIcons {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 1101px) and (max-width: 1200px) {
+
+    .titleContainer {
+        font-size: 34px;
+    }
+
+    .icnWhite {
+        margin: 0 6% 0 12%;
+    }
+
+    .iconsContainer {
+        margin: 0 2% 0 5%;
+
+    }
+    .bottomSection {
+        margin: 0 4% 0 4%;
+    }
+
+    .bottomIcons {
+        margin-right: 3%;
+    }
+}
+
+
+@media screen and (min-width: 1201px) and (max-width: 1300px) {
+
+    .titleContainer {
+        font-size: 34px;
+    }
+
+    .icnWhite {
+        margin: 0 6% 0 12%;
+    }
+
+    .iconsContainer {
+        margin: 0;
+    }
+
+    .bottomSection {
+        margin: 0 4% 0 4%;
+    }
+
+    .bottomIcons {
+        margin-right: 5%;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1400px) {
+
+    .titleContainer {
+        font-size: 34px;
+    }
+
+    .icnWhite {
+        margin: 0 ;
+    }
+
+    .iconsContainer {
+        margin: 0;
+
+    }
+
+    .bottomSection {
+        margin: 0 4% 0 4%;
+    }
+
+    .bottomIcons {
+        margin-right: 5%;
+    }
+}

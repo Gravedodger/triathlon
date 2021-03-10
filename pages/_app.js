@@ -1,7 +1,15 @@
-import '../styles/globals.css'
+import React from 'react';
+import '../styles/css/globals.css';
+import Layout from '../components/Layout';
+import '../components/Birdie/Birdie.css';
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
 
-export default MyApp
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
+};
+
+export default MyApp;

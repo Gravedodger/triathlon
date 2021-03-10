@@ -1,19 +1,18 @@
 import React from 'react';
 import Head from 'next/head';
-import Birdie from '../components/Birdie';
 import Container from '@material-ui/core/Container';
-import Box from '@material-ui/core/Box';
+import Birdie from '../components/Birdie/Birdie';
 
-const Home = () => {
+const AccidentReporting = () => {
   return (
     <>
       <Head>
-        <title>УЛТ | Головна</title>
-        <meta name="keywords" content="тріатлон Україна" />
+        <title>УЛТ | Заявити подію</title>
+        <meta name="keywords" content="" />
       </Head>
 
       <section>
-        <h1 className='tempPageTitle'>Головна сторінка</h1>
+        <h1 className='tempPageTitle'>СТОРІНКА "ЗАЯВИТИ ПОДІЮ"</h1>
       </section>
       <Container maxWidth={'sm'} className='birdie'/>
       <Container className='birdie' />
@@ -25,4 +24,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default AccidentReporting;
