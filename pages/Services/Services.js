@@ -1,18 +1,18 @@
 import React from 'react';
 import Head from 'next/head';
 import Container from '@material-ui/core/Container';
-import Birdie from '../components/Birdie/Birdie';
+import Birdie from '../../components/Birdie/Birdie';
 
-const Contacts = () => {
+const Services = () => {
   return (
     <>
       <Head>
-        <title>УЛТ | Контакти</title>
+        <title>УЛТ | Послуги</title>
         <meta name="keywords" content="" />
       </Head>
 
       <section>
-        <h1 className='tempPageTitle'>СТОРІНКА "КОНТАКТНА ІНФОРМАЦІЯ"</h1>
+        <h1 className='tempPageTitle'>СТОРІНКА "ПОСЛУГИ АТЛЕТАМ"</h1>
       </section>
       <Container maxWidth={'sm'} className='birdie'/>
       <Container className='birdie' />
@@ -23,4 +23,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default Services;

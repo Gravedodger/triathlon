@@ -1,0 +1,21 @@
+.mainContainer {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.pageTitle {
+    font: 25px bold Montserrat, Lato, sans-serif;
+}
+
+.single {
+    display: block;
+    margin: 20px 10px;
+    padding: 5px 16px;
+    background-color: #ffffff;
+    border-left: 8px solid #ffffff;
+}
+
+.single:hover {
+    border-left: 8px solid #002464;
+    cursor: pointer;
+}

@@ -27,8 +27,8 @@
 //           "link": "/SportsAndRules"
 //         },
 //         {
-//           "title": "Athletes",
-//           "link": "/Athletes"
+//           "title": "About",
+//           "link": "/About"
 //         },
 //         {
 //           "title": "Health",

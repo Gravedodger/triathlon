@@ -1,20 +1,18 @@
 import React from 'react';
 import Head from 'next/head';
 import Container from '@material-ui/core/Container';
-import Birdie from '../components/Birdie/Birdie';
+import Birdie from '../../components/Birdie/Birdie';
 
-const News = () => {
+const TrainingCenters = () => {
   return (
     <>
       <Head>
-        <title>УЛТ | Новини</title>
+        <title>УЛТ | Тренувальні центри</title>
         <meta name="keywords" content="" />
       </Head>
 
       <section>
-        <div>
-          <h1 className='tempPageTitle'>СТОРІНКА "НОВИНИ"</h1>
-        </div>
+        <h1 className='tempPageTitle'>СТОРІНКА "ТРЕНУВАЛЬНІ ЦЕНТРИ"</h1>
       </section>
       <Container maxWidth={'sm'} className='birdie'/>
       <Container className='birdie' />
@@ -25,4 +23,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default TrainingCenters;

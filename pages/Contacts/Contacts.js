@@ -1,27 +1,26 @@
 import React from 'react';
 import Head from 'next/head';
 import Container from '@material-ui/core/Container';
-import Birdie from '../components/Birdie/Birdie';
+import Birdie from '../../components/Birdie/Birdie';
 
-const About = () => {
+const Contacts = () => {
   return (
     <>
       <Head>
-        <title>УЛТ | Про нас</title>
+        <title>УЛТ | Контакти</title>
         <meta name="keywords" content="" />
       </Head>
 
       <section>
-        <h1 className='tempPageTitle'>СТОРІНКА "ПРО НАС"</h1>
+        <h1 className='tempPageTitle'>СТОРІНКА "КОНТАКТНА ІНФОРМАЦІЯ"</h1>
       </section>
       <Container maxWidth={'sm'} className='birdie'/>
       <Container className='birdie' />
       <Container className='birdie'><Birdie/></Container>
       <Container className='birdie' />
       <Container className='birdie' />
-
     </>
   );
 };
 
-export default About;
+export default Contacts;

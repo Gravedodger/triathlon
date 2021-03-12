@@ -14,11 +14,6 @@ const Home = () => {
       <section>
         <h1 className='tempPageTitle'>Головна сторінка</h1>
       </section>
-      <Container maxWidth={'sm'} className='birdie'/>
-      <Container className='birdie' />
-      <Container className='birdie'><Birdie/></Container>
-      <Container className='birdie' />
-      <Container className='birdie' />
 
     </>
   );

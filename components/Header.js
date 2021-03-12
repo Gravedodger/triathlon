@@ -2,12 +2,12 @@ import React from 'react';
 import styles from '../styles/Modules/Header.module.css'
 import Image from 'next/image';
 import SvgIconsSize from './misc/icons/AccountCircle';
-import TemporaryDrawer from './misc/Menus/TemporaryDrawer';
-import LanguageSwitch from './misc/Menus/LanguageSwitch';
+import TemporaryDrawer from './Menus/TemporaryDrawer';
+import LanguageSwitch from './Menus/LanguageSwitch';
 import FaceSharpIcon from '@material-ui/icons/FaceSharp';
 import PersonOutlineSharpIcon from '@material-ui/icons/PersonOutlineSharp';
 import {IoLanguageSharp} from 'react-icons/io5';
-import LoginModal from './misc/Modals/LoginModal';
+import LoginModal from './Modals/LoginModal';
 
 const Header = () => {
   return (
