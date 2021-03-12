@@ -29,7 +29,6 @@ const Details = ({athlete}) => {
     <div>
       <h1>{athlete.name}</h1>
       <p>{athlete.email}</p>
-      <p>{athlete.address.city}</p>
     </div>
   );
 }
