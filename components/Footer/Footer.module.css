@@ -29,12 +29,6 @@
     align-items: center;
 }
 
-@media screen and (max-width: 1000px) {
-    .menuBox {
-        width: 200px;
-    }
-}
-
 .menuBox li {
     margin-left: 30px;
     font: 500 15px Merriweather, Lato, sans-serif;
@@ -48,13 +42,36 @@
     color: #C58F00;
 }
 
-@media screen and (min-width: 0) and (max-width: 600px) {
-    .menuContainer {
+/*==========================MEDIA QUERY BREAKPOINTS=========================*/
+
+@media screen and (max-width: 360px) {
+    .footer {
         display: none;
     }
 }
 
-@media screen and (min-width: 601px) and (max-width: 960px){
+@media screen and (min-width: 361px) and (max-width: 600px) {
+    .menuContainer {
+        display: none;
+    }
+    .topContainer {
+        height: auto;
+    }
+    .sendMailBox {
+        display: none;
+    }
+    .mailAndFollowContainer {
+        display: none;
+    }
+    .followBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #002464;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px){
     .menuContainer {
         font-size: 11px;
     }
@@ -66,13 +83,24 @@
     }
 }
 
-@media screen and (min-width: 961px) and (max-width: 1200px){
+@media screen and (min-width: 801px) and (max-width: 1000px){
     .menuItem {
         font-size: 13px;
     }
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1500px){
+@media screen and (min-width: 1001px) and (max-width: 1200px){
+    .menuItem {
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 1500px){
+    .menuItem {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1501px) {
     .menuItem {
         font-size: 16px;
     }

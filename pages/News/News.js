@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Container from '@material-ui/core/Container';
-import Birdie from '../../components/Birdie/Birdie';
+import Birdie from '../../components/misc/Birdie/Birdie';
 
 const News = () => {
   return (
@@ -16,11 +16,6 @@ const News = () => {
           <h1 className='tempPageTitle'>СТОРІНКА "НОВИНИ"</h1>
         </div>
       </section>
-      <Container maxWidth={'sm'} className='birdie'/>
-      <Container className='birdie' />
-      <Container className='birdie'><Birdie/></Container>
-      <Container className='birdie' />
-      <Container className='birdie' />
     </>
   );
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import {IoLanguageSharp} from 'react-icons/io5';
-import styles from '../../styles/Modules/Header.module.css';
+import styles from '../Header/Header.module.css';
 
 export default function LanguageSwitch() {
   const [anchorEl, setAnchorEl] = React.useState(null);

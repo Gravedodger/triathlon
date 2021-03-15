@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Container from '@material-ui/core/Container';
-import Birdie from '../../components/Birdie/Birdie';
+import Birdie from '../../components/misc/Birdie/Birdie';
 
 const AccidentReporting = () => {
   return (
@@ -14,11 +14,6 @@ const AccidentReporting = () => {
       <section>
         <h1 className='tempPageTitle'>СТОРІНКА "ЗАЯВИТИ ПОДІЮ"</h1>
       </section>
-      <Container maxWidth={'sm'} className='birdie'/>
-      <Container className='birdie' />
-      <Container className='birdie'><Birdie/></Container>
-      <Container className='birdie' />
-      <Container className='birdie' />
 
     </>
   );

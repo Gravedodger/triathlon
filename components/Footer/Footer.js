@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../styles/Modules/Footer.module.css'
+import styles from './Footer.module.css'
 import UseAnimations from 'react-useanimations';
 import facebook from 'react-useanimations/lib/facebook';
 import instagram from 'react-useanimations/lib/instagram';

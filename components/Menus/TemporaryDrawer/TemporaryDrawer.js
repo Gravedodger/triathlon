@@ -7,9 +7,9 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import MenuSharpIcon from '@material-ui/icons/MenuSharp';
-import styles from '../../styles/Modules/TemporaryDrawer.module.css';
+import styles from './TemporaryDrawer.module.css';
 import ChevronRightSharpIcon from '@material-ui/icons/ChevronRightSharp';
-import * as pageLinks from '../../shared/Links/PageLinks.js';
+import * as pageLinks from '../../../shared/Links/PageLinks.js';
 
 const useStyles = makeStyles({
   list: {

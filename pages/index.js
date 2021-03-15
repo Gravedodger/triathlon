@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Birdie from '../components/Birdie';
+import Birdie from '../components/misc/Birdie';
 import Container from '@material-ui/core/Container';
 
 const Home = () => {
