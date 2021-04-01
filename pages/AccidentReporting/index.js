@@ -1,1 +1,1 @@
-export {default} from './AccidentReporting';
+export { default } from './AccidentReportingPage';

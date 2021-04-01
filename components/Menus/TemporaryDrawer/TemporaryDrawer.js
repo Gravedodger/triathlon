@@ -6,9 +6,9 @@ import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import MenuSharpIcon from '@material-ui/icons/MenuSharp';
+import MenuIcon from '../../../public/assets/icons/BurgerMenu';
 import styles from './TemporaryDrawer.module.css';
-import ChevronRightSharpIcon from '@material-ui/icons/ChevronRightSharp';
+import ChevronRightIcon from '../../../public/assets/icons/ChevronRightIcon';
 import * as pageLinks from '../../../shared/Links/PageLinks.js';
 
 const useStyles = makeStyles({
@@ -61,10 +61,10 @@ export default function TemporaryDrawer() {
     <div>
       {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <MenuSharpIcon style={{ fontSize: 40 }} className={styles.icnWhite}
+          <MenuIcon style={{ fontSize: 40 }} className={styles.icnWhite}
                          onClick={toggleDrawer(anchor, true)}>
             {anchor}
-          </MenuSharpIcon>
+          </MenuIcon>
           <Drawer anchor={anchor} open={state[anchor]}
                   onClose={toggleDrawer(anchor, false)}>
             {list(anchor)}

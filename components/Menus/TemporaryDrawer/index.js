@@ -1,1 +1,1 @@
-export {default} from './TemporaryDrawer';
+export { default } from './TemporaryDrawer';

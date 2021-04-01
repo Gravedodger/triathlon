@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import { useSpring, animated } from 'react-spring/web.cjs'; // web.cjs is required for IE 11 support
-import PersonOutlineSharpIcon from '@material-ui/icons/PersonOutlineSharp';
+import UserIcon from '../../public/assets/icons/UserIcon';
 import styles from '../Header/Header.module.css';
 
 const useStyles = makeStyles((theme) => ({
@@ -66,7 +66,7 @@ export default function LoginModal() {
 
   return (
     <div>
-      <PersonOutlineSharpIcon type="button" aria-controls="user-access"
+      <UserIcon type="button" aria-controls="user-access"
                               style={{ fontSize: 50 }} className={styles.icnBlue}
                               onClick={handleOpen} />
       <Modal

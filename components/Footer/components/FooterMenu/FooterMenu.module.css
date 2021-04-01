@@ -1,0 +1,35 @@
+.footerMenu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footerMenu__group {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  text-decoration: none;
+}
+
+.link {
+  position: relative;
+  padding: 0;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.link:before {
+  width: 100%;
+  height: 2px;
+  content: '';
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.link:hover:before {
+  transform: scaleX(1);
+}

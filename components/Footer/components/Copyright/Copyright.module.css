@@ -1,0 +1,9 @@
+.copyright__container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.copyright__text {
+  font: 300 14px Montserrat, Lato, Roboto, sans-serif;
+  color: #ffffff;
+}

@@ -1,1 +1,1 @@
-export {default} from './PressInfo';
+export { default } from './PressInfoPage';

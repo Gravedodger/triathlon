@@ -13,21 +13,64 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
+    "fix": "eslint --ext .js,.jsx,.ts,.tsx  --fix ./",
+    "format": "prettier .js,.jsx,.ts,.tsx --write ./"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "@popperjs/core": "^2.9.1",
-    "lodash": "^4.17.21",
+    "bootstrap": "^4.6.0",
     "mdb-react-ui-kit": "^1.0.0-alpha4",
     "next": "10.0.8",
+    "node-sass": "^5.0.0",
     "react": "17.0.1",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "17.0.1",
     "react-icons": "^4.2.0",
-    "react-popper": "^2.2.4",
-    "react-useanimations": "^2.0.6"
+    "react-spring": "^9.0.0",
+    "react-useanimations": "^2.0.6",
+    "scss": "^0.2.4"
   },
   "devDependencies": {
     "clsx": "^1.1.1",
-    "prop-types": "^15.7.2"
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
+    "lodash": "^4.17.21",
+    "popper": "^1.0.1",
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "react-popper": "^2.2.4",
+    "stylelint": "^13.12.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended": "^4.0.0",
+    "stylelint-order": "^4.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "plugin:jsx-a11y/recommended"
+    ],
+    "plugins": [
+      "jsx-a11y"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

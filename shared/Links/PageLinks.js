@@ -7,8 +7,8 @@
 //           "link": "/"
 //         },
 //         {
-//           "title": "About",
-//           "link": "/About"
+//           "title": "AboutPage",
+//           "link": "/AboutPage"
 //         },
 //         {
 //           "title": "News",
@@ -27,8 +27,8 @@
 //           "link": "/SportsAndRules"
 //         },
 //         {
-//           "title": "About",
-//           "link": "/About"
+//           "title": "AboutPage",
+//           "link": "/AboutPage"
 //         },
 //         {
 //           "title": "Health",
@@ -59,8 +59,8 @@
 //           "link": "/PressInfo"
 //         },
 //         {
-//           "title": "AccidentReporting",
-//           "link": "/AccidentReporting"
+//           "title": "AccidentReportingPage",
+//           "link": "/AccidentReportingPage"
 //         }
 //       ]
 //     }
